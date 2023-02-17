@@ -12,6 +12,7 @@ export const LoginForm = () => {
 
   const verifyUser = () => {
     const account = store.getState().account.data;
+    console.log("OI");
     if (!account.email) return Alert.alert("Please Sign Up");
     if (email === account.email) {
       if (password === account.password) {

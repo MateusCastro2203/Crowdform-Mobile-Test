@@ -6,6 +6,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { Provider } from "react-redux";
 import { store } from "./redux/store";
 import { Home } from "./views/home";
+import "react-native-gesture-handler";
 
 const Stack = createNativeStackNavigator();
 
@@ -27,7 +28,11 @@ export default function App() {
             component={SignUp}
             options={{ title: " " }}
           />
-          <Stack.Screen name="Home" component={Home} options={{ title: " " }} />
+          <Stack.Screen
+            name="Home"
+            component={Home}
+            options={{ title: " ", headerShown: false }}
+          />
         </Stack.Navigator>
       </Provider>
     </NavigationContainer>
