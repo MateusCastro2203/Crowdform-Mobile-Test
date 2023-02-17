@@ -48,12 +48,6 @@ export const GraficCard = () => {
           </S.Item>
         ))}
       </S.Contaier>
-      <S.Card>
-        <S.CardContainer>
-          <S.CardTitle>Learn more about carbon credits</S.CardTitle>
-          <S.CardSubTitle>Check out our top tips!</S.CardSubTitle>
-        </S.CardContainer>
-      </S.Card>
     </>
   );
 };

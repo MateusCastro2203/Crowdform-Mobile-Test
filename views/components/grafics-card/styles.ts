@@ -13,26 +13,3 @@ export const Title = styled.Text`
 export const Item = styled.View`
   margin: 10px;
 `;
-
-export const Card = styled.View`
-  width: 100%;
-  height: 105px;
-  background-color: #770fdf;
-  border-radius: 10px;
-  flex-direction: row;
-`;
-export const CardContainer = styled.View`
-  width: 50%;
-  flex-direction: column;
-  padding: 20px;
-`;
-export const CardTitle = styled.Text`
-  font-size: 16px;
-  font-weight: 600;
-  color: #ffffff;
-`;
-export const CardSubTitle = styled.Text`
-  font-size: 12px;
-  font-weight: 400;
-  color: #ffffff;
-`;
